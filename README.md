@@ -1,4 +1,4 @@
-# SiteSelectionSample-ForMvc
+# Site Selection Sample Template for Mvc
 
 ### Description
 
