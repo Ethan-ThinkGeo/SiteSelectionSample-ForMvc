@@ -2,6 +2,8 @@
 
 ### Description
 
+The Site Selection sample template allows you to view, understand, interpret, and visualize spatial data in many ways that reveal relationships, patterns, and trends. In the example illustrated, the user can apply the features of GIS to analyze spatial data to efficiently choose a suitable site for a new retail outlet.
+
 ![Screenshot](https://github.com/ThinkGeo/SiteSelectionSample-ForMvc/blob/master/ScreenShot.png)
 
 ### Requirements
