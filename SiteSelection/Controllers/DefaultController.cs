@@ -369,27 +369,31 @@ namespace ThinkGeo.MapSuite.SiteSelection
 
             LegendItem hotelsLayeritem = new LegendItem();
             hotelsLayeritem.ImageStyle = hotelsLayer.ZoomLevelSet.ZoomLevel10.DefaultPointStyle;
-            hotelsLayeritem.TextStyle = TextStyles.NoData1(Resource.Hotels);
+            hotelsLayeritem.TextStyle = WorldStreetsTextStyles.GeneralPurpose(Resource.Hotels, 10);
             legendlayer.LegendItems.Add("hotels", hotelsLayeritem);
 
             LegendItem medicalFacilitesLayeritem = new LegendItem();
             medicalFacilitesLayeritem.ImageStyle = medicalFacilitesLayer.ZoomLevelSet.ZoomLevel10.DefaultPointStyle;
-            medicalFacilitesLayeritem.TextStyle = TextStyles.NoData1(Resource.MedicalFacilites);
+            hotelsLayeritem.TextStyle = WorldStreetsTextStyles.GeneralPurpose(Resource.MedicalFacilites, 10);
+
             legendlayer.LegendItems.Add("medicalFacilites", medicalFacilitesLayeritem);
 
             LegendItem publicFacilitesLayeritem = new LegendItem();
             publicFacilitesLayeritem.ImageStyle = publicFacilitesLayer.ZoomLevelSet.ZoomLevel10.DefaultPointStyle;
-            publicFacilitesLayeritem.TextStyle = TextStyles.NoData1(Resource.PublicFacilites);
+            hotelsLayeritem.TextStyle = WorldStreetsTextStyles.GeneralPurpose(Resource.PublicFacilites, 10);
+
             legendlayer.LegendItems.Add("publicFacilites", publicFacilitesLayeritem);
 
             LegendItem restaurantsLayeritem = new LegendItem();
             restaurantsLayeritem.ImageStyle = restaurantsLayer.ZoomLevelSet.ZoomLevel10.DefaultPointStyle;
-            restaurantsLayeritem.TextStyle = TextStyles.NoData1(Resource.Restaurants);
+            hotelsLayeritem.TextStyle = WorldStreetsTextStyles.GeneralPurpose(Resource.Restaurants, 10);
+
             legendlayer.LegendItems.Add("restaurants", restaurantsLayeritem);
 
             LegendItem schoolsLayeritem = new LegendItem();
             schoolsLayeritem.ImageStyle = schoolsLayer.ZoomLevelSet.ZoomLevel10.DefaultPointStyle;
-            schoolsLayeritem.TextStyle = TextStyles.NoData1(Resource.Schools);
+            hotelsLayeritem.TextStyle = WorldStreetsTextStyles.GeneralPurpose(Resource.Schools, 10);
+
             legendlayer.LegendItems.Add("schools", schoolsLayeritem);
 
             // Scale bar layer
