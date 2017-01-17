@@ -8,7 +8,7 @@
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{64F3AADA-6444-4043-BE19-53CC622C7E4B}</ProjectGuid>
-    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ThinkGeo.MapSuite.SiteSelection</RootNamespace>
@@ -86,20 +86,14 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
-    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Current Version\Managed Assemblies\System.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Current Version\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Net.Http">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
@@ -107,13 +101,25 @@
     <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.40804.0\lib\net40\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.XML" />
     <Reference Include="ThinkGeo.MapSuite, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
