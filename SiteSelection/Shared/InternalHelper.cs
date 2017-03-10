@@ -13,7 +13,7 @@ namespace ThinkGeo.MapSuite.SiteSelection
             if (poiColumns == null)
             {
                 poiColumns = new Dictionary<string, string>();
-                poiColumns.Add("Hotels", "Hotels");
+                poiColumns.Add("Hotels", "ROOMS");
                 poiColumns.Add("Medical Facilites", "TYPE");
                 poiColumns.Add("Restaurants", "FoodType");
                 poiColumns.Add("Schools", "TYPE");
