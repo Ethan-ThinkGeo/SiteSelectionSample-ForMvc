@@ -9,7 +9,7 @@ The Site Selection sample template allows you to view, understand, interpret, an
 ### Requirements
 This sample makes use of the following NuGet Packages
 
-[MapSuite 10.0.0.0](http:mapsuite.nuget)
+[MapSuite 10.0.0.0](https://www.nuget.org/packages?q=thinkgeo)
 
 ### About the Code
 
