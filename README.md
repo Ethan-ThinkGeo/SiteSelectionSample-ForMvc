@@ -15,7 +15,17 @@ This sample makes use of the following NuGet Packages
 
 ### About the Code
 
-Working...
+```csharp
+   // Create the Routine Engine. 
+            string streetShapeFilePathName = Server.MapPath(ConfigurationManager.AppSettings["StreetShapeFilePathName"]);
+            string streetRtgFilePathName = Path.ChangeExtension(streetShapeFilePathName, ".rtg");
+
+            RtgRoutingSource routingSource = new RtgRoutingSource(streetRtgFilePathName);
+            FeatureSource featureSource = new ShapeFileFeatureSource(streetShapeFilePathName);
+            featureSource.Projection = proj4;
+            routingEngine = new RoutingEngine(routingSource, featureSource);
+            routingEngine.GeographyUnit = GeographyUnit.Meter;
+```
 
 ### Getting Help
 
@@ -30,7 +40,8 @@ Working...
 ### Key APIs
 This example makes use of the following APIs:
 
-Working...
+- [ThinkGeo.MapSuite.Layers.ShapeFileFeatureLayer](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.layers.shapefilefeaturelayer)
+- [ThinkGeo.MapSuite.Layers.ScaleBarAdornmentLayer](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.layers.scalebaradornmentlayer)
 
 ### About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
